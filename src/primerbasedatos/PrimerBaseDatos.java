@@ -15,13 +15,16 @@ import java.sql.ResultSet;
  * @author Soda
  */
 public class PrimerBaseDatos {
+     private String atributo;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       
         //1-Crear conexion
         try {
+            
             //pasamos por parametro ruta(url),usuario(por defecto es root) y contraseña(por defecto "")
             Connection miConexion=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/tienda", "root", "root");
         //2-Crear objeto Statement
