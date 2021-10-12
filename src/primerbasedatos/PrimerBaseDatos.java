@@ -16,6 +16,7 @@ import java.sql.ResultSet;
  */
 public class PrimerBaseDatos {
      private String atributo;
+      private String atributo2;
 
     /**
      * @param args the command line arguments
